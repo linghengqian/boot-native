@@ -38,11 +38,6 @@
             <version>3.5.4.1</version>
         </dependency>
         <dependency>
-            <groupId>org.graalvm.sdk</groupId>
-            <artifactId>graal-sdk</artifactId>
-            <version>22.3.1</version>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -94,9 +89,6 @@
                                 </execution>
                             </executions>
                             <configuration>
-                                <buildArgs>
-                                    <arg>-H:+AllowDeprecatedBuilderClassesOnImageClasspath</arg>
-                                </buildArgs>
                                 <agent>
                                     <enabled>true</enabled>
                                     <defaultMode>Conditional</defaultMode>
@@ -147,10 +139,6 @@
                             <artifactId>native-maven-plugin</artifactId>
                             <extensions>true</extensions>
                             <configuration>
-                                <buildArgs>
-                                    <arg>-H:+AllowDeprecatedBuilderClassesOnImageClasspath</arg>
-                                    <arg>--features=com.example.bootnative.LambdaRegistrationFeature</arg>
-                                </buildArgs>
                                 <classesDirectory>${project.build.outputDirectory}</classesDirectory>
                                 <metadataRepository>
                                     <enabled>true</enabled>
