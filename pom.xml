@@ -115,7 +115,7 @@
                                         </disabledStages>
                                         <merge>false</merge>
                                         <outputDirectory>
-                                            ${project.basedir}/src/main/resources/META-INF/native-image/com.baomidou/mybatis-plus-spring-boot3-starter/3.5.4.1/
+                                            ${project.basedir}/src/main/resources/META-INF/native-image/com.baomidou/dynamic-datasource-spring-boot3-starter/4.2.0/
                                         </outputDirectory>
                                     </metadataCopy>
                                 </agent>
@@ -149,6 +149,7 @@
                             <configuration>
                                 <buildArgs>
                                     <arg>-H:+AllowDeprecatedBuilderClassesOnImageClasspath</arg>
+                                    <arg>--features=com.example.bootnative.LambdaRegistrationFeature</arg>
                                 </buildArgs>
                                 <classesDirectory>${project.build.outputDirectory}</classesDirectory>
                                 <metadataRepository>

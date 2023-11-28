@@ -1,6 +1,6 @@
 {
   "rules": [
     {"excludeClasses": "**"},
-    {"includeClasses": "com.baomidou.mybatisplus.core.**"}
+    {"includeClasses": "com.baomidou.dynamic.datasource.**"}
   ]
 }
