@@ -1,0 +1,395 @@
+[
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"[Ljava.util.Map$Entry;"
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy67"},
+  "name":"ch.qos.logback.classic.Logger",
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"ch.qos.logback.classic.Logger",
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.MybatisPlusConfig"},
+  "name":"ch.qos.logback.classic.Logger",
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.annotation.IEnum",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.AbstractLambdaWrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.AbstractWrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getEntity","parameterTypes":[] }, {"name":"getParamNameValuePairs","parameterTypes":[] }, {"name":"getSqlComment","parameterTypes":[] }, {"name":"getSqlFirst","parameterTypes":[] }, {"name":"getSqlSegment","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.ISqlSegment",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.Wrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"isEmptyOfNormal","parameterTypes":[] }, {"name":"isNonEmptyOfNormal","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.interfaces.Compare",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.interfaces.Func",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.interfaces.Join",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.interfaces.Nested",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getSqlSelect","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.query.Query",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.query.QueryWrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getSqlSelect","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getSqlSet","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.update.Update",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getSqlSet","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.handlers.CompositeEnumTypeHandler",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.mapper.BaseMapper",
+  "methods":[{"name":"selectOne","parameterTypes":["com.baomidou.mybatisplus.core.conditions.Wrapper"] }, {"name":"selectOne","parameterTypes":["com.baomidou.mybatisplus.core.conditions.Wrapper","boolean"] }, {"name":"selectPage","parameterTypes":["com.baomidou.mybatisplus.core.metadata.IPage","com.baomidou.mybatisplus.core.conditions.Wrapper"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.baomidou.mybatisplus.core.toolkit.Wrappers$EmptyWrapper",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy67"},
+  "name":"com.example.bootnative.BootNativeApplication$Message",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Integer","java.lang.String"] }, {"name":"message","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy68"},
+  "name":"com.example.bootnative.BootNativeApplication$Message",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Integer","java.lang.String"] }, {"name":"message","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.MybatisPlusConfig$$SpringCGLIB$$0"},
+  "name":"com.example.bootnative.MybatisPlusConfig",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.MybatisPlusConfig$$SpringCGLIB$$0"},
+  "name":"com.example.bootnative.MybatisPlusConfig$$SpringCGLIB$$0",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.MybatisPlusConfig$$SpringCGLIB$$0"},
+  "name":"com.example.bootnative.MybatisPlusConfig$$SpringCGLIB$$1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.MybatisPlusConfig$$SpringCGLIB$$0"},
+  "name":"com.example.bootnative.MybatisPlusConfig$$SpringCGLIB$$2",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.example.bootnative.enmus.MessageType",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getValue","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"com.example.bootnative.entity.Messages",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getId","parameterTypes":[] }, {"name":"getMessage","parameterTypes":[] }, {"name":"getMessageType","parameterTypes":[] }, {"name":"setId","parameterTypes":["java.lang.Long"] }, {"name":"setMessage","parameterTypes":["java.lang.String"] }, {"name":"setMessageType","parameterTypes":["com.example.bootnative.enmus.MessageType"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.io.Serializable",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.lang.Comparable",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.lang.Enum",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.lang.Long",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.lang.Number",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.lang.constant.Constable",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.lang.constant.ConstantDesc",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.lang.invoke.MethodHandles",
+  "methods":[{"name":"privateLookupIn","parameterTypes":["java.lang.Class","java.lang.invoke.MethodHandles$Lookup"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.lang.reflect.AccessibleObject",
+  "fields":[{"name":"override"}]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy67"},
+  "name":"java.util.ArrayList",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy68"},
+  "name":"java.util.ArrayList",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.util.ArrayList",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.util.Map",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.util.MapBeanInfo"
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"java.util.MapCustomizer"
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy67"},
+  "name":"org.apache.ibatis.executor.Executor",
+  "methods":[{"name":"close","parameterTypes":["boolean"] }, {"name":"commit","parameterTypes":["boolean"] }, {"name":"query","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object","org.apache.ibatis.session.RowBounds","org.apache.ibatis.session.ResultHandler"] }, {"name":"query","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object","org.apache.ibatis.session.RowBounds","org.apache.ibatis.session.ResultHandler","org.apache.ibatis.cache.CacheKey","org.apache.ibatis.mapping.BoundSql"] }, {"name":"update","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy68"},
+  "name":"org.apache.ibatis.executor.Executor",
+  "methods":[{"name":"close","parameterTypes":["boolean"] }, {"name":"commit","parameterTypes":["boolean"] }, {"name":"query","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object","org.apache.ibatis.session.RowBounds","org.apache.ibatis.session.ResultHandler"] }, {"name":"query","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object","org.apache.ibatis.session.RowBounds","org.apache.ibatis.session.ResultHandler","org.apache.ibatis.cache.CacheKey","org.apache.ibatis.mapping.BoundSql"] }, {"name":"update","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"org.apache.ibatis.executor.Executor",
+  "methods":[{"name":"close","parameterTypes":["boolean"] }, {"name":"commit","parameterTypes":["boolean"] }, {"name":"query","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object","org.apache.ibatis.session.RowBounds","org.apache.ibatis.session.ResultHandler"] }, {"name":"query","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object","org.apache.ibatis.session.RowBounds","org.apache.ibatis.session.ResultHandler","org.apache.ibatis.cache.CacheKey","org.apache.ibatis.mapping.BoundSql"] }, {"name":"update","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy67"},
+  "name":"org.apache.ibatis.executor.statement.StatementHandler",
+  "methods":[{"name":"getBoundSql","parameterTypes":[] }, {"name":"parameterize","parameterTypes":["java.sql.Statement"] }, {"name":"prepare","parameterTypes":["java.sql.Connection","java.lang.Integer"] }, {"name":"query","parameterTypes":["java.sql.Statement","org.apache.ibatis.session.ResultHandler"] }, {"name":"update","parameterTypes":["java.sql.Statement"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy68"},
+  "name":"org.apache.ibatis.executor.statement.StatementHandler",
+  "methods":[{"name":"getBoundSql","parameterTypes":[] }, {"name":"parameterize","parameterTypes":["java.sql.Statement"] }, {"name":"prepare","parameterTypes":["java.sql.Connection","java.lang.Integer"] }, {"name":"query","parameterTypes":["java.sql.Statement","org.apache.ibatis.session.ResultHandler"] }, {"name":"update","parameterTypes":["java.sql.Statement"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"org.apache.ibatis.executor.statement.StatementHandler",
+  "methods":[{"name":"getBoundSql","parameterTypes":[] }, {"name":"parameterize","parameterTypes":["java.sql.Statement"] }, {"name":"prepare","parameterTypes":["java.sql.Connection","java.lang.Integer"] }, {"name":"query","parameterTypes":["java.sql.Statement","org.apache.ibatis.session.ResultHandler"] }, {"name":"update","parameterTypes":["java.sql.Statement"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy67"},
+  "name":"org.apache.ibatis.logging.slf4j.Slf4jImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"org.apache.ibatis.logging.slf4j.Slf4jImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.MybatisPlusConfig"},
+  "name":"org.apache.ibatis.logging.slf4j.Slf4jImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"org.apache.ibatis.mapping.BoundSql",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getAdditionalParameters","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"org.apache.ibatis.reflection.SystemMetaObject$NullObject",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy67"},
+  "name":"org.apache.ibatis.session.SqlSession",
+  "methods":[{"name":"insert","parameterTypes":["java.lang.String","java.lang.Object"] }, {"name":"selectOne","parameterTypes":["java.lang.String","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy68"},
+  "name":"org.apache.ibatis.session.SqlSession",
+  "methods":[{"name":"insert","parameterTypes":["java.lang.String","java.lang.Object"] }, {"name":"selectOne","parameterTypes":["java.lang.String","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"org.apache.ibatis.session.SqlSession",
+  "methods":[{"name":"delete","parameterTypes":["java.lang.String","java.lang.Object"] }, {"name":"insert","parameterTypes":["java.lang.String","java.lang.Object"] }, {"name":"select","parameterTypes":["java.lang.String","java.lang.Object","org.apache.ibatis.session.ResultHandler"] }, {"name":"selectList","parameterTypes":["java.lang.String","java.lang.Object"] }, {"name":"selectOne","parameterTypes":["java.lang.String","java.lang.Object"] }, {"name":"update","parameterTypes":["java.lang.String","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.$Proxy67"},
+  "name":"org.locationtech.jts.geom.Geometry"
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.MyBatisNativeConfiguration$MyBatisMapperFactoryBeanPostProcessor"},
+  "name":"org.mybatis.spring.mapper.MapperFactoryBean"
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.MybatisPlusConfig$$SpringCGLIB$$0"},
+  "name":"org.springframework.beans.factory.Aware",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.MybatisPlusConfig$$SpringCGLIB$$0"},
+  "name":"org.springframework.beans.factory.BeanFactoryAware",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.MybatisPlusConfig$$SpringCGLIB$$0"},
+  "name":"org.springframework.context.annotation.ConfigurationClassEnhancer$EnhancedConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[{"name":"objectFieldOffset","parameterTypes":["java.lang.reflect.Field"] }, {"name":"putBoolean","parameterTypes":["java.lang.Object","long","boolean"] }]
+},
+  {
+    "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+    "name":"com.example.bootnative.BootNativeApplication",
+    "allDeclaredClasses": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicClasses": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "allPublicConstructors": true,
+    "allRecordComponents": true,
+    "allNestMembers": true,
+    "allSigners": true,
+    "allPermittedSubclasses": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "queryAllPublicMethods": true,
+    "queryAllPublicConstructors": true,
+    "unsafeAllocated": true
+  }
+]

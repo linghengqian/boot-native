@@ -1,0 +1,22 @@
+[
+  {
+    "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperProxyFactory"},
+    "interfaces":["com.example.bootnative.BootNativeApplication$MyMapper"]
+  },
+  {
+    "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperProxyFactory"},
+    "interfaces":["com.example.bootnative.BootNativeApplication$MyXmlMapper"]
+  },
+  {
+    "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperProxyFactory"},
+    "interfaces":["com.example.bootnative.mapper.MessagesMapper"]
+  },
+  {
+    "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisConfiguration"},
+    "interfaces":["org.apache.ibatis.executor.Executor"]
+  },
+  {
+    "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+    "interfaces":["org.apache.ibatis.executor.statement.StatementHandler"]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "condition":{"typeReachable":"com.example.bootnative.$Proxy67"},
+    "interfaces":["org.apache.ibatis.executor.Executor"]
+  },
+  {
+    "condition":{"typeReachable":"com.example.bootnative.$Proxy68"},
+    "interfaces":["org.apache.ibatis.executor.Executor"]
+  },
+  {
+    "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+    "interfaces":["org.apache.ibatis.executor.Executor"]
+  },
+  {
+    "condition":{"typeReachable":"com.example.bootnative.$Proxy67"},
+    "interfaces":["org.apache.ibatis.executor.statement.StatementHandler"]
+  },
+  {
+    "condition":{"typeReachable":"com.example.bootnative.$Proxy68"},
+    "interfaces":["org.apache.ibatis.executor.statement.StatementHandler"]
+  },
+  {
+    "condition":{"typeReachable":"com.example.bootnative.BootNativeApplication"},
+    "interfaces":["org.apache.ibatis.executor.statement.StatementHandler"]
+  }
+]

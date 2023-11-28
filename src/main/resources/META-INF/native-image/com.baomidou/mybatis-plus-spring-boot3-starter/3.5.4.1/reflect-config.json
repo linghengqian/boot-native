@@ -1,0 +1,444 @@
+[
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"[Ljava.util.Map$Entry;"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisConfiguration"},
+  "name":"ch.qos.logback.classic.Logger",
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder"},
+  "name":"ch.qos.logback.classic.Logger",
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.injector.AbstractMethod"},
+  "name":"ch.qos.logback.classic.Logger",
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.injector.AbstractSqlInjector"},
+  "name":"ch.qos.logback.classic.Logger",
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.metadata.TableInfoHelper"},
+  "name":"ch.qos.logback.classic.Logger",
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.Sequence"},
+  "name":"ch.qos.logback.classic.Logger",
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler"},
+  "name":"com.baomidou.mybatisplus.annotation.IEnum",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisConfiguration"},
+  "name":"com.baomidou.mybatisplus.core.MybatisXMLLanguageDriver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.AbstractLambdaWrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisParameterHandler"},
+  "name":"com.baomidou.mybatisplus.core.conditions.AbstractWrapper",
+  "methods":[{"name":"getParamNameValuePairs","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.AbstractWrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getEntity","parameterTypes":[] }, {"name":"getParamNameValuePairs","parameterTypes":[] }, {"name":"getSqlComment","parameterTypes":[] }, {"name":"getSqlFirst","parameterTypes":[] }, {"name":"getSqlSegment","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.ISqlSegment",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.Wrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"isEmptyOfNormal","parameterTypes":[] }, {"name":"isNonEmptyOfNormal","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.interfaces.Compare",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.interfaces.Func",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.interfaces.Join",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.interfaces.Nested",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getSqlSelect","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.query.Query",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.conditions.query.QueryWrapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getSqlSelect","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperProxy"},
+  "name":"com.baomidou.mybatisplus.core.mapper.BaseMapper"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.baomidou.mybatisplus.core.toolkit.Wrappers$EmptyWrapper",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder"},
+  "name":"com.example.bootnative.BootNativeApplication$Message",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder"},
+  "name":"com.example.bootnative.BootNativeApplication$MyMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder"},
+  "name":"com.example.bootnative.BootNativeApplication$MyXmlMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler"},
+  "name":"com.example.bootnative.enmus.MessageType",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getValue","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.metadata.TableInfo"},
+  "name":"com.example.bootnative.entity.Messages",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"com.example.bootnative.entity.Messages",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setId","parameterTypes":["java.lang.Long"] }, {"name":"setMessage","parameterTypes":["java.lang.String"] }, {"name":"setMessageType","parameterTypes":["com.example.bootnative.enmus.MessageType"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.ReflectionKit"},
+  "name":"com.example.bootnative.entity.Messages",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.support.ReflectLambdaMeta"},
+  "name":"com.example.bootnative.entity.Messages"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder"},
+  "name":"com.example.bootnative.mapper.MessagesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder"},
+  "name":"com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.injector.AbstractMethod"},
+  "name":"com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler"},
+  "name":"java.io.Serializable",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.metadata.TableInfo"},
+  "name":"java.io.Serializable",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.io.Serializable",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder"},
+  "name":"java.lang.Class",
+  "methods":[{"name":"isRecord","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler"},
+  "name":"java.lang.Comparable",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.lang.Comparable",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler"},
+  "name":"java.lang.Enum",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.lang.Long",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.lang.Number",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler"},
+  "name":"java.lang.Object",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.metadata.TableInfo"},
+  "name":"java.lang.Object",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.PluginUtils"},
+  "name":"java.lang.Object",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.ReflectionKit"},
+  "name":"java.lang.Object",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder"},
+  "name":"java.lang.Record",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisXMLScriptBuilder"},
+  "name":"java.lang.System",
+  "methods":[{"name":"console","parameterTypes":[] }, {"name":"exit","parameterTypes":["int"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.Sequence"},
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler"},
+  "name":"java.lang.constant.Constable",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.lang.constant.Constable",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.lang.constant.ConstantDesc",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperProxy"},
+  "name":"java.lang.invoke.MethodHandles",
+  "methods":[{"name":"privateLookupIn","parameterTypes":["java.lang.Class","java.lang.invoke.MethodHandles$Lookup"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisXMLScriptBuilder"},
+  "name":"java.lang.reflect.AccessibleObject",
+  "methods":[{"name":"setAccessible","parameterTypes":["boolean"] }, {"name":"setAccessible","parameterTypes":["java.lang.reflect.AccessibleObject[]","boolean"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.lang.reflect.AccessibleObject",
+  "fields":[{"name":"override"}]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.util.ArrayList",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.util.Map",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.util.MapBeanInfo"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"java.util.MapCustomizer"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.Sequence"},
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisConfiguration"},
+  "name":"org.apache.ibatis.executor.Executor",
+  "methods":[{"name":"query","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object","org.apache.ibatis.session.RowBounds","org.apache.ibatis.session.ResultHandler"] }, {"name":"query","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object","org.apache.ibatis.session.RowBounds","org.apache.ibatis.session.ResultHandler","org.apache.ibatis.cache.CacheKey","org.apache.ibatis.mapping.BoundSql"] }, {"name":"update","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"org.apache.ibatis.executor.Executor",
+  "methods":[{"name":"close","parameterTypes":["boolean"] }, {"name":"commit","parameterTypes":["boolean"] }, {"name":"query","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object","org.apache.ibatis.session.RowBounds","org.apache.ibatis.session.ResultHandler"] }, {"name":"query","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object","org.apache.ibatis.session.RowBounds","org.apache.ibatis.session.ResultHandler","org.apache.ibatis.cache.CacheKey","org.apache.ibatis.mapping.BoundSql"] }, {"name":"update","parameterTypes":["org.apache.ibatis.mapping.MappedStatement","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisConfiguration"},
+  "name":"org.apache.ibatis.executor.statement.StatementHandler",
+  "methods":[{"name":"getBoundSql","parameterTypes":[] }, {"name":"prepare","parameterTypes":["java.sql.Connection","java.lang.Integer"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"org.apache.ibatis.executor.statement.StatementHandler",
+  "methods":[{"name":"getBoundSql","parameterTypes":[] }, {"name":"parameterize","parameterTypes":["java.sql.Statement"] }, {"name":"prepare","parameterTypes":["java.sql.Connection","java.lang.Integer"] }, {"name":"query","parameterTypes":["java.sql.Statement","org.apache.ibatis.session.ResultHandler"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisXMLScriptBuilder"},
+  "name":"org.apache.ibatis.javassist.ClassPool"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisConfiguration"},
+  "name":"org.apache.ibatis.javassist.util.proxy.ProxyFactory"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisConfiguration"},
+  "name":"org.apache.ibatis.logging.slf4j.Slf4jImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder"},
+  "name":"org.apache.ibatis.logging.slf4j.Slf4jImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.injector.AbstractMethod"},
+  "name":"org.apache.ibatis.logging.slf4j.Slf4jImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.injector.AbstractSqlInjector"},
+  "name":"org.apache.ibatis.logging.slf4j.Slf4jImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.metadata.TableInfoHelper"},
+  "name":"org.apache.ibatis.logging.slf4j.Slf4jImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.Sequence"},
+  "name":"org.apache.ibatis.logging.slf4j.Slf4jImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.PluginUtils"},
+  "name":"org.apache.ibatis.mapping.BoundSql",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.PluginUtils$MPBoundSql"},
+  "name":"org.apache.ibatis.mapping.BoundSql",
+  "methods":[{"name":"getAdditionalParameters","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisXMLScriptBuilder"},
+  "name":"org.apache.ibatis.ognl.OgnlRuntime$ClassPropertyMethodCache",
+  "methods":[{"name":"get","parameterTypes":["java.lang.Class","java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"org.apache.ibatis.reflection.SystemMetaObject$NullObject",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisConfiguration"},
+  "name":"org.apache.ibatis.scripting.defaults.RawLanguageDriver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.MybatisConfiguration"},
+  "name":"org.apache.ibatis.scripting.xmltags.XMLLanguageDriver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"org.apache.ibatis.session.SqlSession",
+  "methods":[{"name":"select","parameterTypes":["java.lang.String","java.lang.Object","org.apache.ibatis.session.ResultHandler"] }, {"name":"selectList","parameterTypes":["java.lang.String","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.toolkit.ClassUtils"},
+  "name":"org.springframework.core.GenericTypeResolver"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.mybatisplus.core.override.MybatisMapperMethod"},
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[{"name":"objectFieldOffset","parameterTypes":["java.lang.reflect.Field"] }, {"name":"putBoolean","parameterTypes":["java.lang.Object","long","boolean"] }]
+}
+]
