@@ -1,0 +1,19 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+
+mybatis-plus:
+  type-aliases-package: com.example.bootnative.entity
+
+spring:
+  datasource:
+    dynamic:
+      primary: master
+      strict: false
+      lazy: true
+      datasource:
+        master:
+          username: sa
+          password: ""
+          url: jdbc:h2:mem:test;MODE=MySQL
+          driver-class-name: org.h2.Driver
